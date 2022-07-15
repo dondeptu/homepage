@@ -1,0 +1,32 @@
+.navigation{
+    border-top: 1px solid #5a9597;
+    border-bottom: 1px solid #5a9597;
+}
+
+.navigation__listNavigation {
+    padding-left: 0px;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+.navigation__listItem {
+    margin: 20px auto;
+    list-style-type: none;
+}
+
+.navigation__navigationLink {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navigation__navigationLink:hover {
+    color: #5a9597;
+    outline: none;
+}
+
+.navigation__navigationLink:active {
+    color: #436e70;
+}

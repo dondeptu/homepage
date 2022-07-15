@@ -1,0 +1,12 @@
+.gallery {
+    text-align: center;
+}
+
+.gallery__imageGallery {
+    object-fit: cover;
+    width: 100%;
+    max-width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin: 15px auto;
+}

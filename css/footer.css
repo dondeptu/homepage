@@ -1,0 +1,23 @@
+.footer {
+    background-color: #ccc;
+    color: #f8f7f7;
+    text-align: center;
+    line-height: 1.5;
+    border-top: 30px solid #5a95979d;
+    padding: 3px 0px;
+    margin-top: 30px;
+}
+
+.footer__mail {
+    text-decoration: none;
+    color: #1e1edf;
+}
+
+.footer__mail:hover {
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.footer__mail:active {
+    color: #1919b6;
+}

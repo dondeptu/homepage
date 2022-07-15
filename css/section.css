@@ -1,0 +1,16 @@
+.section {
+    padding: 10px 0;
+}
+
+.section__paragraph {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.section__paragraph--textColor {
+    color: #5a9597;
+}
+
+.section__element {
+    font-weight: normal;
+}

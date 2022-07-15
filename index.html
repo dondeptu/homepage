@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donata Deptuła</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1 class="header__pageTitle">Donata Deptuła</h1>
+        <img class="header__image js-header__image" src="/homepage/images/donata.jpg" alt="Donata Deptuła">
+        <p class="header__paragraph">
+            <button class="header__resizeImageButton js-resizeImageButton"><span>Powiększ</span> zdjęcie</button>
+        </p>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__listNavigation">
+            <li class="navigation__listItem"><a class="navigation__navigationLink" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__listItem"><a class="navigation__navigationLink"
+                    href="#alternatywne-metody-parzenia-kawy">Alternatywne metody parzenia kawy</a></li>
+            <li class="navigation__listItem"><a class="navigation__navigationLink" href="#kocie-focie">Kocie focie</a>
+            </li>
+            <li class="navigation__listItem"><a class="navigation__navigationLink" href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="o-mnie" class="section">
+            <article>
+                <h2>O mnie</h2>
+                <p class="section__paragraph">Jestem zeszłorocznym inżynierem Inżynierii Biomedycznej Politechniki
+                    Gdańskiej. Swoją przygodę z IT rozpoczęłam w momencie wyboru kierunku studiów. W szkole średniej
+                    uczęszczałam do klasy o profilu biologiczno-chemicznym. Chciałam zostać farmaceutą. Na całe
+                    szczęście w tym okresie mój przyjaciel był już na pierwszym roku studiów informatycznych. Zaraził
+                    mnie pasją i zmieniłam plany! Rzuciłam się na pożarcie polibudzie, wydziałowi
+                    Informatyki,Telekomunikacji i Informatyki.</p>
+                <p class="section__paragraph">Teraz, kiedy świat zwolnił i ja zwolniłam. Mogłam się w końcu zastanowić:
+                    <em>co dalej?</em>
+                    <span class="section__importantText">I tak narodził się pomysł frontendu.</span
+                        class="section__importantText"> Co prawda <i>HTML</i>, <i>CSS</i> i <i>JavaScript</i> mignął na
+                    studiach, ale zaczęłam myśleć o konkretnej, samodzielnej nauce i wtedy natknęłam się na kurs
+                    <strong>YouCode</strong>. Już drugi tydzień usystematyzował to co wiedziałam, rozjaśnił
+                    niezrozumiane.
+                </p>
+            </article>
+            <article>
+                <h2> A prywatnie...</h2>
+                <p class="section__paragraph">Mam dwa koty - Foresta i Franię.<br> Kawa to moje życie, stale dowiaduję
+                    się czegoś nowego o sposobach jej parzenia, ale zawładnęły mną <b
+                        class="section__element">alternatywne metody</b> takie jak <i>drip</i>, czy <i>aeropress</i>.
+                    Fascynują mnie również z tym związane tradycje innych kultur.<br> Jeśli jesteś ciekawy tureckiej
+                    kawy z przyprawami z tygielka to <em>koniecznie zajrzyj</em> np. do kawiarni <b
+                        class="section__element">Kafe Delfin</b> w Gdańskiej Oliwie. </p>
+                <p class="section__paragraph">Lubię próbować nowych rzeczy i staram się czerpać przyjemności z różnych
+                    dziedzin. Szlifuję angielski, rysuję w <i>Procreate</i>, jeżdzę rowerem, ulepszam coś w mieszkaniu.
+                    Pracowałam też jako wizażystka, ale zdecydowanie wolę wyładowywać artystyczne zapędy na swojej
+                    twarzy niż na innych ;) </p>
+                <p class="section__paragraph section__paragraph--textColor"> A kiedy potrzebuję resetu gram w planszówki
+                    z przyjaciółmi, lub oglądam po raz tysięczny Friends. </p>
+            </article>
+        </section>
+        <section id="alternatywne-metody-parzenia-kawy" class="section">
+            <h2>Alternatywne metody parzenia kawy</h2>
+            <p class="section__paragraph">Najczęściej wybieraną przeze mnie metodą jest drip. Jej zaletami
+                niepodważalnie są szybkość przygotowania i delikatny smak. Świetnie podkreśla kawę o orzechowych nutach
+                i ciemno palonych ziarnach. Profil podkreśli również dodatek mleka.</p>
+            <p class="section__paragraph">Krótką charakterystykę ulubionych przeze mnie metod, wraz z polecanymi
+                ziarnami znajdziesz w poniższej tabeli.</p>
+            <table class="table">
+                <caption class="table__tableCaption">Alternatywne metody parzenia kawy</caption>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableCell--header" scope="col">Metoda</th>
+                    <td class="table__tableCell table__tableCell--header" scope="col">Rok powstania</th>
+                    <td class="table__tableCell table__tableCell--header" scope="col">Kraj pochodzenia</th>
+                    <td class="table__tableCell table__tableCell--header" scope="col">Materiał wykonania</th>
+                    <td class="table__tableCell table__tableCell--header" scope="col">Polecane ziarna</th>
+                    <td class="table__tableCell table__tableCell--header" scope="col">Cechy naparu</th>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableCell--header" scope="row">Chemex</th>
+                    <td class="table__tableCell">1933</td>
+                    <td class="table__tableCell">USA</td>
+                    <td class="table__tableCell">wysokiej jakości żaroodporne szkło</td>
+                    <td class="table__tableCell">do metod przelewowych, dość grubo zmielona</td>
+                    <td class="table__tableCell">delikatny oraz klarowny smak, przywodzący na myśl lekkie, pełne aromatu
+                        wina </td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableCell--header" scope="row">Aeropress</th>
+                    <td class="table__tableCell">2005</td>
+                    <td class="table__tableCell">USA</td>
+                    <td class="table__tableCell">plastik</td>
+                    <td class="table__tableCell">jasno palone</td>
+                    <td class="table__tableCell">wyciąga z kawy maksimum jej soczystości i naturalnych nut owocowych,
+                        podkreśla także jej kwasowość </td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableCell--header" scope="row">Kawiarka</th>
+                    <td class="table__tableCell">1933</td>
+                    <td class="table__tableCell">Włochy</td>
+                    <td class="table__tableCell">aluminium lub stal</td>
+                    <td class="table__tableCell">mieszanki do espresso (tzw. blendy lub single ciemno wypalane)</td>
+                    <td class="table__tableCell">skondensowany smak, mocny aromat, pozbawiony nadmiernej goryczki</td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableCell--header" scope="row">French press</th>
+                    <td class="table__tableCell">1929</td>
+                    <td class="table__tableCell">Włochy</td>
+                    <td class="table__tableCell">szkło lub metal</td>
+                    <td class="table__tableCell">mieszanki do espresso lub metod przelewowych</td>
+                    <td class="table__tableCell">szorski charakter, nie tak czysta i delikatna jak z dripa czy Chemexa
+                    </td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableCell--header" scope="row">Drip</th>
+                    <td class="table__tableCell">1908</td>
+                    <td class="table__tableCell">Niemcy</td>
+                    <td class="table__tableCell">szkło, metal, porcelana, plastik</td>
+                    <td class="table__tableCell">dobrej jakości, najlepiej single, ziarna o owocowym profilu smakowym -
+                        tak jak ziarna z Etiopii, Kenii, Rwandy czy Tanzanii, jak i o czekoladowo – orzechowym - jak w
+                        przypadku ziaren z Brazylii, Gwatemali czy Salwadoru</td>
+                    <td class="table__tableCell">delikatny, o bardziej herbacianej konsystencji, bogaty w owocowe
+                        aromaty i kofeinę </td>
+                </tr>
+                <tr class="table__tableRow">
+                    <td class="table__tableCell table__tableCell--header" scope="row">Turecki tygielek</th>
+                    <td class="table__tableCell">1640</td>
+                    <td class="table__tableCell">Turcja</td>
+                    <td class="table__tableCell">miedź lub metal</td>
+                    <td class="table__tableCell">mocno zmielone ziarna o słodkich nutach smakowych</td>
+                    <td class="table__tableCell">głeboki, ciemny kolor, intensywny smak, złamany słodyczą cukru oraz
+                        kardamonu lub cynamonu</td>
+                </tr>
+            </table>
+        </section>
+        <section id="kocie-focie" class="section">
+            <h2>Kocie focie</h2>
+            <article>
+                <p class="gallery"><img class="gallery__imageGallery" src="/homepage/images/forest.jpg"
+                        alt="Kot Forest">
+                </p>
+                <p class="gallery"><img class="gallery__imageGallery" src="/homepage/images/frania.jpg"
+                        alt="Kota Frania">
+                </p>
+                <p class="gallery"><img class="gallery__imageGallery" src="/homepage/images/koty-czołg.jpg"
+                        alt="Koty i kartonowy czołg"></p>
+                <p class="gallery"><img class="gallery__imageGallery" src="/homepage/images/koty.jpg" alt="Dwa koty">
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer id="kontakt" class="footer">
+        <h3>Kontakt</h3>
+        <p> Napisz do mnie:<br>
+            <a class="footer__mail" href="mailto:dondeptu@gmail.com"> dondeptu@gmail.com </a>
+        </p>
+    </footer>
+</body>
+
+</html>
