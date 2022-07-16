@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.gallery__imageGallery {
+.gallery__image {
     object-fit: cover;
     width: 100%;
     max-width: 270px;

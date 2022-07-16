@@ -3,30 +3,30 @@
     border-bottom: 1px solid #5a9597;
 }
 
-.navigation__listNavigation {
+.navigation__list {
     padding-left: 0px;
     text-align: center;
     text-transform: uppercase;
    
 }
 
-.navigation__listItem {
+.navigation__item {
     margin: 20px auto;
     list-style-type: none;
 }
 
-.navigation__navigationLink {
+.navigation__link {
     color: #000;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
 }
 
-.navigation__navigationLink:hover {
+.navigation__link:hover {
     color: #5a9597;
     outline: none;
 }
 
-.navigation__navigationLink:active {
+.navigation__link:active {
     color: #436e70;
 }
