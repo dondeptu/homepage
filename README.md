@@ -8,7 +8,7 @@ My names is Donata Deptuła and this is my personal page with some informations 
 
 ## Preview
 
-![homepage preview](images/homepage-preview%20(online-video-cutter.com).gif)
+![homepage preview](images/readme-currency-converter-review.gif)
 
 ## Technologies
 Project is created with:
