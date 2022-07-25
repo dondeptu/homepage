@@ -12,6 +12,8 @@
         let resizeImageButton = document.querySelector(".js-resizeImageButton");
 
         resizeImageButton.addEventListener("click", toggleImageSize);
+
+        welcome();
     };
 
     init();
