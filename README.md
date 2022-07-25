@@ -1,3 +1,7 @@
+<div id="header" align="center">
+  <img src="images/character.gif" width="100"/>
+</div>
+
 # Homepage
 
 My names is Donata Deptuła and this is my personal page with some informations about myself.
