@@ -1,9 +1,18 @@
-console.log("Hello Friends!");
+{
+    const welcome = () => { console.log("Hello Friends!"); };
 
-let resizeImageButton = document.querySelector(".js-resizeImageButton");
-let image = document.querySelector(".js-headerImage");
+    const toggleImageSize = () => {
+        let image = document.querySelector(".js-headerImage");
 
-resizeImageButton.addEventListener("click", () => {
-    image.classList.toggle("header__image--resizeImage");
-    resizeImageButton.innerText = image.classList.contains("header__image--resizeImage") ? "Pomniejsz" : "Powiększ";
-});
+        image.classList.toggle("header__image--resizeImage");
+        resizeImageButton.innerText = image.classList.contains("header__image--resizeImage") ? "Pomniejsz" : "Powiększ";
+    }
+
+    const init = () => {
+        let resizeImageButton = document.querySelector(".js-resizeImageButton");
+
+        resizeImageButton.addEventListener("click", toggleImageSize);
+    };
+
+    init();
+}
