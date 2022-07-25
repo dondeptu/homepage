@@ -1,6 +1,4 @@
-<div id="header" align="center">
-  <img src="images/character.gif" width="100"/>
-</div>
+<p align="center"><img src="images/my-character.gif" width="130"/></p>
 
 # Homepage
 
