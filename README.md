@@ -3,6 +3,7 @@
 # Homepage
 
 My names is Donata Deptuła and this is my personal page with some informations about myself.
+I drew this gif myself ;)
 
 ## Demo
 
